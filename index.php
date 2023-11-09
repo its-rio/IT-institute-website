@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="main">
+        <nav>
+            <a href="#"class="logo">
+                <img src="images/logo1.png" alt="" srcset="">
+            </a>
+
+            <ul class="menu">
+                <li><a href="#"class="active">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+                
+        </nav>
+        <div class="main-heading">
+            <h1>Driven by Outcomes,Fuelled by Ambitions.</h1>
+            <p>Start Your Coding Career And Become An Industry-ready Developers In India's Ever-Growing Technology Job Market. </p>
+            <a class="main-btn" href="#">Contact</a>
+        
+        </div>
+            
+            
+        </section>
+        <section class="features">
+            <div class="features-container">
+
+                <div class="features-box">
+                    <div class="f-img">
+                        <img src="images/info-icon1.png" alt="">
+                    </div>
+                    <div class="f-text">
+                        <h4>Web Development</h4>
+                        <p>Be An Industry Ready Web Designer.</p>
+                        <a href="#" class="main-btn">Check </a>
+                    </div>
+                </div>
+
+                <div class="features-box">
+                    <div class="f-img">
+                        <img src="images/info-icon2.png" alt="">
+                    </div>
+                    <div class="f-text">
+                        <h4>Software Development</h4>
+                        <p>Be An Industry Ready Web Developer.</p>
+                        <a href="#" class="main-btn">Check </a>
+                    </div>
+                </div>
+
+                <div class="features-box">
+                    <div class="f-img">
+                        <img src="images/info-icon3.png" alt="">
+                    </div>
+                    <div class="f-text">
+                        <h4>App Development</h4>
+                        <p>Be An Industry Ready App Developer.</p>
+                        <a href="#" class="main-btn">Check </a>
+                    </div>
+                </div>
+
+          </div>
+        </section>
+
+        <section class="about">
+            <div class="about-img">
+                    <img src="images/about.png" alt="">
+                </div>
+                <div class="about-text">
+                    <h2>About Eldas.in</h2>
+                    <p>Eldas is an Educational Institution Providing Rigorous Industry-Relevant Programs Designed Annd Delivered Collaboration With World-Class Faculty And Industry </p>
+                    <button class="main-btn">Read More</button>
+
+                </div>
+        </section>
+    <section class="contact">
+        <div class="contact-handling">
+            <h1>Contact Us</h1>
+            <p>We Are Always Here To Help You.</p>
+        </div>
+        <form action="userinformation.php" method="post">
+            <input type="text" name="user" placeholder="Your Full Name">
+            <input type="email" name="email" placeholder="Your E-Mail">
+            <textarea name="message" placeholder="Type Your Text Here..............." ></textarea>
+            <button class="main-btn contact-btn" type="submit">Continue</button>
+        </form>
+
+    </section>
+</body>
+</html>
